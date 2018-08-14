@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #222222;
+}
+
+/* HOME LOGO */
+header{
+  height: 25%;
+  border-bottom: 1px solid white;
+  display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C74B25;
+}
+
+.home{
+  border: 4px solid black;
+  display: inline-flex;
+  align-items: center;
+  width: 70%;
+  flex-shrink: 10;
+}
+
+.logo{
+  height: 3.7rem;
+
+}
+
+.powerful{
+  display: none;
+}
+
+.JRE-short{
+  display: none;
+}
+
+.JRE{
+  display: inline-block;
+}
+
+/* NAVBAR */
+nav{
+  flex-shrink: 0;
+}
+
+ul{
+  display: flex;
+}
+
+.navItem{
+  display: inline-block;
+  padding: 2rem 4rem;
+  border-left: 2px solid white;
+  background-color: #222222;
+  color: white;
+  opacity: 0.8;
+
+}
+
+.navItem:hover{
+  opacity: 1;
+}
+
+.navI2{
+  border-right: 2px solid white;
+}
+
+/*main*/
+.newEpisode{
+  margin: 1rem;
+}
+
+.latest{
+  font-size: 3rem;
+  color: Whitesmoke;
+  opacity: 0.88;
+  margin: 1rem;
+}
+
+article, section{
+  diplay: inline-flex;
+}
+
+.latest-vid{
+  flex-shrink: 3;
+  margin-left: 1.5rem;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 889px){
+  .JRE{
+    display: none;
+  }
+
+  .powerful{
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+}
+
+/* SMALL*/
+@media only screen and (max-width: 759px){
+  .powerful{
+    display: none;
+  }
+
+  .home{
+    justify-content: center;
+  }
+
+  .JRE-short{
+    display: inline-block;
+  }
+}
+
+/* SMALL*/
+@media only screen and (max-width: 465px){
+  header{
+    height: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav{
+
+
+  }
+
+  ul{
+     width: 100%;
+
+  }
+
+  .navItem{
+    padding: 2rem 5rem;
+  }
+
+  .navLink{
+    font-size: 0.9rem;
+  }
+}
