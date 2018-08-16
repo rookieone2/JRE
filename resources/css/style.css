@@ -76,7 +76,6 @@ article{
   height: 100%;
 }
 .newEpisode{
-  border: 5px solid yellow;
   height: 50rem;
 }
 
@@ -88,7 +87,6 @@ article{
 }
 
 article, section{
-  border: 5px solid purple;
   display: inline-flex;
   flex-shrink: 3;
   flex-direction: column;
@@ -96,7 +94,6 @@ article, section{
 
 .latest-vid{
   flex-shrink: 3;
-  border: 5px solid blue;
   height: 75%;
   width: 45rem;
   margin-left: 1.4rem;
