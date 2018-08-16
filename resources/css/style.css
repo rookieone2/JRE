@@ -72,8 +72,12 @@ ul{
 }
 
 /*main*/
+article{
+  height: 100%;
+}
 .newEpisode{
-  margin: 1rem;
+  border: 5px solid yellow;
+  height: 50rem;
 }
 
 .latest{
@@ -84,12 +88,18 @@ ul{
 }
 
 article, section{
-  diplay: inline-flex;
+  border: 5px solid purple;
+  display: inline-flex;
+  flex-shrink: 3;
+  flex-direction: column;
 }
 
 .latest-vid{
   flex-shrink: 3;
-  margin-left: 1.5rem;
+  border: 5px solid blue;
+  height: 75%;
+  width: 45rem;
+  margin-left: 1.4rem;
 }
 
 /* MEDIA */
@@ -144,5 +154,10 @@ article, section{
 
   .navLink{
     font-size: 0.9rem;
+  }
+
+  .latest-vid, section, article{
+    width: 100%;
+    margin: 0;
   }
 }
